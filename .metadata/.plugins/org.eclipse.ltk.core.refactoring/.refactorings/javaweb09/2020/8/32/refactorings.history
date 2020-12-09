@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;javaweb09/src/main/webapp/views/errors/comon.jsp&apos; to &apos;common.jsp&apos;" description="Rename resource &apos;comon.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/views/errors/comon.jsp" name="common.jsp" stamp="1596804521964" updateReferences="true"/>
+</session>

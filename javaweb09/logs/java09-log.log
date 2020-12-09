@@ -1,0 +1,262 @@
+2020-09-05 13:54:22,117 INFO o.s.b.StartupInfoLogger [restartedMain] Starting StartServer on DESKTOP-OENLBT5 with PID 7844 (D:\DevPro-JavaWeb\javaweb09\target\classes started by User in D:\DevPro-JavaWeb\javaweb09)
+2020-09-05 13:54:22,128 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-09-05 13:54:22,278 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-05 13:54:22,279 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-05 13:54:24,560 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-09-05 13:54:24,740 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 156ms. Found 5 repository interfaces.
+2020-09-05 13:54:25,532 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1f5986ba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-05 13:54:26,695 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-09-05 13:54:26,725 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-09-05 13:54:26,755 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-09-05 13:54:26,757 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-09-05 13:54:27,297 INFO o.a.j.l.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-05 13:54:27,309 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-09-05 13:54:27,309 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 5030 ms
+2020-09-05 13:54:27,488 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2020-09-05 13:54:29,482 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2020-09-05 13:54:29,665 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-09-05 13:54:29,877 INFO o.h.Version [restartedMain] HHH000412: Hibernate Core {5.3.9.Final}
+2020-09-05 13:54:29,881 INFO o.h.c.Environment [restartedMain] HHH000206: hibernate.properties not found
+2020-09-05 13:54:30,185 INFO o.h.a.c.r.j.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-09-05 13:54:31,358 INFO o.h.d.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-09-05 13:54:33,619 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-05 13:54:33,702 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-09-05 13:54:35,291 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-05 13:54:35,956 INFO o.s.s.w.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@db223a6, org.springframework.security.web.context.SecurityContextPersistenceFilter@6d5c58d4, org.springframework.security.web.header.HeaderWriterFilter@3c19d32f, org.springframework.security.web.authentication.logout.LogoutFilter@6d814988, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@61139028, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@409452dd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@877d2bd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@24dee21e, org.springframework.security.web.session.SessionManagementFilter@cc39f56, org.springframework.security.web.access.ExceptionTranslationFilter@69db91b8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2d448bc7]
+2020-09-05 13:54:36,481 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-09-05 13:54:36,665 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-09-05 13:54:36,669 INFO o.s.b.StartupInfoLogger [restartedMain] Started StartServer in 15.382 seconds (JVM running for 16.826)
+2020-09-05 13:55:15,776 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-05 13:55:15,777 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-09-05 13:55:15,815 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 38 ms
+2020-09-05 13:55:16,438 INFO o.h.h.i.QueryTranslatorFactoryInitiator [http-nio-8080-exec-1] HHH000397: Using ASTQueryTranslatorFactory
+2020-09-05 13:55:22,911 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-7] No mapping for GET /favicon.ico
+2020-09-05 13:55:47,505 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] No mapping for GET /favicon.ico
+2020-09-05 13:55:48,605 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-7] No mapping for GET /favicon.ico
+2020-09-05 13:55:49,233 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] No mapping for GET /favicon.ico
+2020-09-05 13:55:50,057 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-7] No mapping for GET /favicon.ico
+2020-09-05 13:55:50,925 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] No mapping for GET /favicon.ico
+2020-09-05 13:55:51,884 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-7] No mapping for GET /favicon.ico
+2020-09-05 13:55:52,428 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] No mapping for GET /favicon.ico
+2020-09-05 13:55:53,244 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-7] No mapping for GET /favicon.ico
+2020-09-05 13:55:54,888 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-3] No mapping for GET /favicon.ico
+2020-09-05 13:56:01,229 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-4] No mapping for GET /favicon.ico
+2020-09-05 13:56:52,089 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] No mapping for GET /favicon.ico
+2020-09-05 13:56:54,327 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-5] No mapping for GET /favicon.ico
+2020-09-05 13:56:56,452 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] No mapping for GET /favicon.ico
+2020-09-05 13:56:59,806 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] No mapping for GET /favicon.ico
+2020-09-05 13:58:50,967 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-7] No mapping for GET /favicon.ico
+2020-09-05 13:58:57,950 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-7] No mapping for GET /favicon.ico
+2020-09-05 13:59:23,435 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-4] No mapping for GET /favicon.ico
+2020-09-05 13:59:24,517 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-8] No mapping for GET /favicon.ico
+2020-09-05 13:59:25,418 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-4] No mapping for GET /favicon.ico
+2020-09-05 13:59:26,096 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-8] No mapping for GET /favicon.ico
+2020-09-05 13:59:26,806 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-4] No mapping for GET /favicon.ico
+2020-09-05 13:59:27,517 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-8] No mapping for GET /favicon.ico
+2020-09-05 13:59:28,117 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-4] No mapping for GET /favicon.ico
+2020-09-05 13:59:29,065 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-8] No mapping for GET /favicon.ico
+2020-09-05 14:00:45,154 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-5] No mapping for GET /favicon.ico
+2020-09-05 14:00:47,087 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] No mapping for GET /favicon.ico
+2020-09-05 14:00:47,999 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-5] No mapping for GET /favicon.ico
+2020-09-05 14:00:49,834 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-10] No mapping for GET /favicon.ico
+2020-09-05 14:00:56,091 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-3] No mapping for GET /favicon.ico
+2020-09-05 14:00:57,611 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-5] No mapping for GET /favicon.ico
+2020-09-05 14:02:18,972 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-9] No mapping for GET /favicon.ico
+2020-09-05 14:02:24,006 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-3] No mapping for GET /favicon.ico
+2020-09-05 14:02:24,770 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-8] No mapping for GET /favicon.ico
+2020-09-05 14:02:25,618 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-7] No mapping for GET /favicon.ico
+2020-09-05 14:02:27,010 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-7] No mapping for GET /favicon.ico
+2020-09-05 14:03:45,343 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] No mapping for GET /favicon.ico
+2020-09-05 14:03:45,968 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-6] No mapping for GET /favicon.ico
+2020-09-05 14:03:49,007 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-3] No mapping for GET /favicon.ico
+2020-09-05 14:05:16,450 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] No mapping for GET /favicon.ico
+2020-09-05 14:05:18,122 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-6] No mapping for GET /favicon.ico
+2020-09-05 14:05:20,043 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-8] No mapping for GET /favicon.ico
+2020-09-05 14:05:25,191 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-9] No mapping for GET /favicon.ico
+2020-09-05 14:05:26,211 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-3] No mapping for GET /favicon.ico
+2020-09-05 14:05:28,388 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-8] No mapping for GET /favicon.ico
+2020-09-05 14:06:54,070 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-10] No mapping for GET /favicon.ico
+2020-09-05 14:06:54,928 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-4] No mapping for GET /favicon.ico
+2020-09-05 14:06:56,395 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-6] No mapping for GET /favicon.ico
+2020-09-05 14:07:00,278 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-4] No mapping for GET /favicon.ico
+2020-09-05 14:07:01,976 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-6] No mapping for GET /favicon.ico
+2020-09-05 14:07:24,106 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-4] No mapping for GET /favicon.ico
+2020-09-05 14:07:25,673 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-6] No mapping for GET /favicon.ico
+2020-09-05 14:07:33,689 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-4] No mapping for GET /favicon.ico
+2020-09-05 14:07:34,571 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-6] No mapping for GET /favicon.ico
+2020-09-05 14:07:35,259 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-4] No mapping for GET /favicon.ico
+2020-09-05 14:07:36,124 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-6] No mapping for GET /favicon.ico
+2020-09-05 14:07:38,838 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-8] No mapping for GET /favicon.ico
+2020-09-05 14:07:40,589 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] No mapping for GET /favicon.ico
+2020-09-05 14:07:42,159 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-6] No mapping for GET /favicon.ico
+2020-09-05 14:09:07,058 WARN o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-9] SQL Error: 1406, SQLState: 22001
+2020-09-05 14:09:07,059 ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-9] Data truncation: Data too long for column 'title' at row 1
+2020-09-05 14:09:07,473 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-5] No mapping for GET /favicon.ico
+2020-09-05 14:09:09,318 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-7] No mapping for GET /favicon.ico
+2020-09-05 14:09:17,060 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-10] No mapping for GET /favicon.ico
+2020-09-05 14:09:26,601 WARN o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-8] SQL Error: 1406, SQLState: 22001
+2020-09-05 14:09:26,603 ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-8] Data truncation: Data too long for column 'title' at row 1
+2020-09-05 14:09:26,787 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-6] No mapping for GET /favicon.ico
+2020-09-05 14:09:29,585 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-7] No mapping for GET /favicon.ico
+2020-09-05 14:09:50,435 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-10] No mapping for GET /favicon.ico
+2020-09-05 14:09:51,696 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-4] No mapping for GET /favicon.ico
+2020-09-05 14:09:52,923 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-7] No mapping for GET /favicon.ico
+2020-09-05 14:09:55,331 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-4] No mapping for GET /favicon.ico
+2020-09-05 14:09:56,413 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-7] No mapping for GET /favicon.ico
+2020-09-05 14:09:57,996 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-4] No mapping for GET /favicon.ico
+2020-09-05 14:10:16,042 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-10] No mapping for GET /favicon.ico
+2020-09-05 14:10:51,283 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-3] No mapping for GET /favicon.ico
+2020-09-05 14:11:03,447 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-8] No mapping for GET /favicon.ico
+2020-09-05 14:11:04,125 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] No mapping for GET /favicon.ico
+2020-09-05 14:11:05,009 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-8] No mapping for GET /favicon.ico
+2020-09-05 14:11:10,176 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] No mapping for GET /favicon.ico
+2020-09-05 14:11:17,485 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-10] No mapping for GET /favicon.ico
+2020-09-05 14:11:51,325 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-3] No mapping for GET /favicon.ico
+2020-09-05 14:11:54,005 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-10] No mapping for GET /favicon.ico
+2020-09-05 14:11:55,281 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-3] No mapping for GET /favicon.ico
+2020-09-05 14:11:56,329 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-10] No mapping for GET /favicon.ico
+2020-09-05 14:11:57,180 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-3] No mapping for GET /favicon.ico
+2020-09-05 14:11:57,987 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-10] No mapping for GET /favicon.ico
+2020-09-05 14:11:59,136 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-3] No mapping for GET /favicon.ico
+2020-09-05 14:12:01,915 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-10] No mapping for GET /favicon.ico
+2020-09-05 14:12:15,345 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-8] No mapping for GET /admin/
+2020-09-05 14:12:15,555 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-6] No mapping for GET /favicon.ico
+2020-09-05 14:12:19,003 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-5] No mapping for GET /favicon.ico
+2020-09-05 14:12:56,124 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-9] No mapping for GET /favicon.ico
+2020-09-05 14:12:57,104 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] No mapping for GET /favicon.ico
+2020-09-05 14:12:58,140 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-8] No mapping for GET /favicon.ico
+2020-09-05 14:13:00,170 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] No mapping for GET /favicon.ico
+2020-09-05 14:13:01,470 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-8] No mapping for GET /favicon.ico
+2020-09-05 14:13:51,739 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-9] No mapping for GET /favicon.ico
+2020-09-05 14:15:43,845 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-7] No mapping for GET /favicon.ico
+2020-09-05 14:16:32,131 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-3] No mapping for GET /favicon.ico
+2020-09-05 14:16:50,078 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-5] No mapping for GET /favicon.ico
+2020-09-05 14:18:33,810 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] No mapping for GET /favicon.ico
+2020-09-05 14:24:39,984 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-9] No mapping for GET /favicon.ico
+2020-09-05 14:24:41,623 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-3] No mapping for GET /favicon.ico
+2020-09-05 14:28:57,295 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-8] No mapping for GET /favicon.ico
+2020-09-05 14:32:01,027 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] No mapping for GET /favicon.ico
+2020-09-05 14:32:01,735 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-3] No mapping for GET /favicon.ico
+2020-09-05 14:32:02,541 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] No mapping for GET /favicon.ico
+2020-09-05 14:34:09,964 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-5] No mapping for GET /favicon.ico
+2020-09-05 14:34:10,746 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-8] No mapping for GET /favicon.ico
+2020-09-05 14:34:11,433 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-5] No mapping for GET /favicon.ico
+2020-09-05 14:34:12,118 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-8] No mapping for GET /favicon.ico
+2020-09-05 14:34:12,998 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-5] No mapping for GET /favicon.ico
+2020-09-05 14:34:13,708 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-8] No mapping for GET /favicon.ico
+2020-09-05 14:34:14,321 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-5] No mapping for GET /favicon.ico
+2020-09-05 14:34:15,016 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-8] No mapping for GET /favicon.ico
+2020-09-05 14:34:15,710 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-5] No mapping for GET /favicon.ico
+2020-09-05 14:34:16,417 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-8] No mapping for GET /favicon.ico
+2020-09-05 14:34:17,380 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-5] No mapping for GET /favicon.ico
+2020-09-05 14:34:17,989 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-8] No mapping for GET /favicon.ico
+2020-09-05 14:34:19,285 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-4] No mapping for GET /favicon.ico
+2020-09-05 14:34:24,617 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] No mapping for GET /favicon.ico
+2020-09-05 14:34:26,571 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] No mapping for GET /favicon.ico
+2020-09-05 14:34:28,420 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-6] No mapping for GET /favicon.ico
+2020-09-05 14:34:32,822 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] No mapping for GET /favicon.ico
+2020-09-05 14:34:41,119 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-10] No mapping for GET /favicon.ico
+2020-09-05 14:34:49,755 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-9] No mapping for GET /favicon.ico
+2020-09-05 14:39:05,184 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-6] No mapping for GET /favicon.ico
+2020-09-05 14:39:16,723 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-7] No mapping for GET /favicon.ico
+2020-09-05 14:39:18,150 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] No mapping for GET /favicon.ico
+2020-09-05 14:39:19,586 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-10] No mapping for GET /favicon.ico
+2020-09-05 14:43:06,697 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] No mapping for GET /favicon.ico
+2020-09-05 14:43:10,177 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-10] No mapping for GET /favicon.ico
+2020-09-05 14:43:12,318 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-7] No mapping for GET /favicon.ico
+2020-09-05 14:47:09,944 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-9] No mapping for GET /favicon.ico
+2020-09-05 14:47:13,887 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-7] No mapping for GET /favicon.ico
+2020-09-05 14:47:16,030 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] No mapping for GET /favicon.ico
+2020-09-05 14:47:17,911 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-7] No mapping for GET /favicon.ico
+2020-09-05 14:49:45,593 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-8] No mapping for GET /favicon.ico
+2020-09-05 14:57:26,044 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-8] No mapping for GET /favicon.ico
+2020-09-05 14:58:59,122 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-9] No mapping for GET /favicon.ico
+2020-09-05 14:59:00,672 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-7] No mapping for GET /favicon.ico
+2020-09-05 14:59:04,993 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] No mapping for GET /favicon.ico
+2020-09-05 14:59:09,510 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-9] No mapping for GET /favicon.ico
+2020-09-05 14:59:10,620 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-7] No mapping for GET /favicon.ico
+2020-09-05 14:59:19,752 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-6] No mapping for GET /favicon.ico
+2020-09-05 14:59:22,552 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-10] No mapping for GET /favicon.ico
+2020-09-05 15:07:58,623 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] No mapping for GET /favicon.ico
+2020-09-05 15:08:33,838 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-4] No mapping for GET /favicon.ico
+2020-09-05 15:08:35,824 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] No mapping for GET /favicon.ico
+2020-09-05 15:08:37,773 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-4] No mapping for GET /favicon.ico
+2020-09-05 15:08:45,011 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] No mapping for GET /favicon.ico
+2020-09-05 15:08:46,293 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-4] No mapping for GET /favicon.ico
+2020-09-05 15:08:48,172 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] No mapping for GET /favicon.ico
+2020-09-05 15:08:48,706 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-4] No mapping for GET /favicon.ico
+2020-09-05 15:08:54,002 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] No mapping for GET /favicon.ico
+2020-09-05 15:09:12,629 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-6] No mapping for GET /favicon.ico
+2020-09-05 15:09:18,924 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-10] No mapping for GET /favicon.ico
+2020-09-05 15:09:23,391 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-5] No mapping for GET /favicon.ico
+2020-09-05 15:09:36,720 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] No mapping for GET /favicon.ico
+2020-09-05 15:09:48,716 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-10] No mapping for GET /favicon.ico
+2020-09-05 15:10:40,032 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-3] No mapping for GET /favicon.ico
+2020-09-05 15:10:48,332 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-6] No mapping for GET /favicon.ico
+2020-09-05 15:10:53,008 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-8] No mapping for GET /favicon.ico
+2020-09-05 15:10:58,321 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] No mapping for GET /favicon.ico
+2020-09-05 15:11:03,045 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-10] No mapping for GET /favicon.ico
+2020-09-05 15:11:04,063 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-7] No mapping for GET /favicon.ico
+2020-09-05 15:11:07,054 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] No mapping for GET /favicon.ico
+2020-09-05 15:11:19,462 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-9] No mapping for GET /favicon.ico
+2020-09-05 15:11:21,809 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-10] No mapping for GET /favicon.ico
+2020-09-05 15:11:27,279 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] No mapping for GET /favicon.ico
+2020-09-05 15:11:40,036 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-10] No mapping for GET /favicon.ico
+2020-09-05 15:11:41,314 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-3] No mapping for GET /favicon.ico
+2020-09-05 15:11:51,817 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-6] No mapping for GET /favicon.ico
+2020-09-05 15:12:02,277 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-3] No mapping for GET /favicon.ico
+2020-09-05 15:12:03,459 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-9] No mapping for GET /favicon.ico
+2020-09-05 15:12:12,042 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-4] No mapping for GET /favicon.ico
+2020-09-05 15:12:16,847 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] No mapping for GET /favicon.ico
+2020-09-05 15:12:20,907 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-6] No mapping for GET /favicon.ico
+2020-09-05 15:12:21,637 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-5] No mapping for GET /favicon.ico
+2020-09-05 15:12:26,717 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] No mapping for GET /favicon.ico
+2020-09-05 15:12:39,530 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-7] No mapping for GET /favicon.ico
+2020-09-05 15:12:47,367 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-5] No mapping for GET /favicon.ico
+2020-09-05 15:13:07,781 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-3] No mapping for GET /favicon.ico
+2020-09-05 15:13:09,502 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-10] No mapping for GET /favicon.ico
+2020-09-05 15:13:11,167 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-6] No mapping for GET /favicon.ico
+2020-09-05 15:14:23,966 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] No mapping for GET /favicon.ico
+2020-09-05 15:14:25,788 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-5] No mapping for GET /favicon.ico
+2020-09-05 15:14:37,786 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] No mapping for GET /favicon.ico
+2020-09-05 15:14:47,541 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-10] No mapping for GET /favicon.ico
+2020-09-05 15:14:52,300 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] No mapping for GET /favicon.ico
+2020-09-05 15:14:54,082 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-5] No mapping for GET /favicon.ico
+2020-09-05 15:15:05,356 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-6] No mapping for GET /favicon.ico
+2020-09-05 15:15:11,716 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-3] No mapping for GET /favicon.ico
+2020-09-05 15:15:12,500 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-5] No mapping for GET /favicon.ico
+2020-09-05 15:15:13,048 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-8] No mapping for GET /favicon.ico
+2020-09-05 15:15:15,405 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-9] No mapping for GET /favicon.ico
+2020-09-05 15:15:17,503 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-10] No mapping for GET /favicon.ico
+2020-09-05 15:15:25,227 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-6] No mapping for GET /favicon.ico
+2020-09-05 15:15:26,611 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] No mapping for GET /favicon.ico
+2020-09-05 15:15:27,901 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] No mapping for GET /favicon.ico
+2020-09-05 15:15:28,768 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-5] No mapping for GET /favicon.ico
+2020-09-05 15:15:29,149 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-7] No mapping for GET /favicon.ico
+2020-09-05 15:15:29,354 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-4] No mapping for GET /favicon.ico
+2020-09-05 15:15:30,722 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-10] No mapping for GET /favicon.ico
+2020-09-05 15:15:31,540 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-8] No mapping for GET /favicon.ico
+2020-09-05 15:15:32,555 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] No mapping for GET /favicon.ico
+2020-09-05 15:15:34,912 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-9] No mapping for GET /favicon.ico
+2020-09-05 15:15:48,920 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-7] No mapping for GET /favicon.ico
+2020-09-05 15:15:55,869 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-9] No mapping for GET /favicon.ico
+2020-09-05 15:16:14,500 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-7] No mapping for GET /favicon.ico
+2020-09-05 15:16:15,783 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-9] No mapping for GET /favicon.ico
+2020-09-05 15:16:16,943 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] No mapping for GET /favicon.ico
+2020-09-05 15:16:22,465 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-10] No mapping for GET /favicon.ico
+2020-09-05 15:16:24,072 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-3] No mapping for GET /favicon.ico
+2020-09-05 15:16:32,605 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-10] No mapping for GET /favicon.ico
+2020-09-05 15:17:20,955 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-4] No mapping for GET /favicon.ico
+2020-09-05 15:17:22,838 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-9] No mapping for GET /favicon.ico
+2020-09-05 15:17:27,225 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-7] No mapping for GET /favicon.ico
+2020-09-05 15:17:28,091 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] No mapping for GET /favicon.ico
+2020-09-05 15:17:28,984 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-10] No mapping for GET /favicon.ico
+2020-09-05 15:17:32,186 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-3] No mapping for GET /favicon.ico
+2020-09-05 15:17:33,554 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-9] No mapping for GET /favicon.ico
+2020-09-05 15:18:14,872 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-4] No mapping for GET /favicon.ico
+2020-09-05 15:18:15,540 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] No mapping for GET /favicon.ico
+2020-09-05 15:18:16,870 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-5] No mapping for GET /favicon.ico
+2020-09-05 15:22:30,313 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-6] No mapping for GET /favicon.ico
+2020-09-05 15:44:47,868 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m18s34ms97µs38ns).

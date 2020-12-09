@@ -1,0 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@include file="/common/taglib.jsp"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Home</title>
+
+<link rel="stylesheet" href='<c:url value="/admin/css/style.css"></c:url>'>
+<script src="<c:url value="/admin/js/jquery.min.js"></c:url>"></script>
+</head>
+<body>
+
+	<%@include file="/common/admin/header.jsp"%>
+
+	<%@include file="/common/admin/menu.jsp"%>
+
+	<div class="main">
+		<br><br>
+		<h1>Đấy là list</h1>
+		<h1>aaaaaaaaaa</h1>
+		<h1>aaaaaaaaaa</h1>
+		<h1>aaaaaaaaaa</h1>
+		<h1>aaaaaaaaaa</h1>
+		<h1>aaaaaaaaaa</h1>
+		<h1>aaaaaaaaaa</h1>
+		<h1>aaaaaaaaaa</h1>
+		<h1>aaaaaaaaaa</h1>
+		<h1>aaaaaaaaaa</h1>
+		<h1>aaaaaaaaaa</h1>
+		<h1>aaaaaaaaaa</h1>
+	</div>
+
+	<%@include file="/common/admin/footer.jsp"%>
+	<script>
+		
+	</script>
+</body>
+</html>

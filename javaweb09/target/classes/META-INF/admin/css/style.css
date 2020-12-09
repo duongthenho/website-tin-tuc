@@ -1,0 +1,123 @@
+	.main table,.main th,.main td {
+	  border: 1px solid black;
+	  border-collapse: collapse;
+	}
+	.main table{
+		width: 99%;
+	}
+	table td{
+		text-align:center;
+	}
+	a{
+		text-decoration: none;
+	}
+	.header a{
+		color: white;
+	}
+	.menu a{
+		color: black;
+	}
+	body{
+		margin:0;
+		font-family: "Times New Roman", Times, serif;
+	}
+	.header{
+
+	}
+	.header_table{
+		text-align: center;
+		background: #660066;
+		top:0;
+		position: fixed;
+		width: 100%;	
+		height: 50px;
+		font-size: 18px;
+		color: #ffffff;
+ 		
+
+ 	}
+ 	.menu{
+ 		position: fixed;
+ 		top: 50px;
+ 		bottom: 0px;
+ 		width: 17%;
+ 	}
+	.menu ul {
+		background: #f0f0f5;
+		top: 50px;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		height: 100%;
+		overflow: auto;
+		
+	}
+	.menu ul li{
+		display: block;
+		padding: 8px 16px;
+	}
+	.menu ul li:hover{
+		background-color: #660066;
+		color: white;
+	}
+	.main{
+		margin-top: 60px;
+		margin-left: 18%;
+		
+		
+	}
+	.footer{
+		text-align: center;
+	
+		margin-left: 17%;
+	}
+	
+	.button {
+		border: none;
+		color: white;
+		padding: 6px 14px;
+		min-width: 80px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		border-radius:25px;
+		transition-duration: 0.4s;
+		cursor: pointer;
+	}
+	.button:hover {
+		  background-color: white;
+		  color: black;
+	}
+	.btn-green {
+		  background-color: green; 
+		  color: white; 
+		  border: 2px solid green;
+	}
+	.btn-red {
+		  background-color: red; 
+		  color: white; 
+		  border: 2px solid red;
+	}
+	.btn-blue {
+		  background-color: blue; 
+		  color: white; 
+		  border: 2px solid blue;
+	}
+	.btn-brown {
+		  background-color: brown; 
+		  color: white; 
+		  border: 2px solid brown;
+	}
+	
+	input{
+    	width:98%;
+        height: 25px;
+       
+    }
+    label{
+    	font-size: 20px;
+    	font-weight:bold;
+    	color:#009900;
+    }

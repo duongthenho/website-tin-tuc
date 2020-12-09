@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;com.devpro.javaweb09&apos; to &apos;javaweb09&apos;" description="Rename resource &apos;com.devpro.javaweb09&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/com.devpro.javaweb09" name="javaweb09" stamp="1592226068365" updateReferences="true"/>
+</session>

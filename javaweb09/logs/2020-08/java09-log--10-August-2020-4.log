@@ -1,0 +1,38 @@
+2020-08-10 19:44:06,541 INFO o.s.b.StartupInfoLogger [restartedMain] Starting StartServer on DESKTOP-OENLBT5 with PID 11532 (D:\DevPro-JavaWeb\javaweb09\target\classes started by User in D:\DevPro-JavaWeb\javaweb09)
+2020-08-10 19:44:06,555 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-08-10 19:44:06,697 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-10 19:44:06,697 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-10 19:44:08,694 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-08-10 19:44:08,901 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 170ms. Found 2 repository interfaces.
+2020-08-10 19:44:09,797 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$262e6e43] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-10 19:44:11,148 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-08-10 19:44:11,182 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-10 19:44:11,216 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-10 19:44:11,218 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-08-10 19:44:11,795 INFO o.a.j.l.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-08-10 19:44:11,807 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-10 19:44:11,808 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 5110 ms
+2020-08-10 19:44:12,066 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2020-08-10 19:44:12,937 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2020-08-10 19:44:13,255 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-08-10 19:44:13,374 INFO o.h.Version [restartedMain] HHH000412: Hibernate Core {5.3.9.Final}
+2020-08-10 19:44:13,377 INFO o.h.c.Environment [restartedMain] HHH000206: hibernate.properties not found
+2020-08-10 19:44:13,711 INFO o.h.a.c.r.j.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-08-10 19:44:14,071 INFO o.h.d.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-08-10 19:44:15,760 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-10 19:44:15,792 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-10 19:44:16,957 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-10 19:44:17,695 INFO o.s.s.w.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6529b270, org.springframework.security.web.context.SecurityContextPersistenceFilter@3e68b482, org.springframework.security.web.header.HeaderWriterFilter@347720e4, org.springframework.security.web.authentication.logout.LogoutFilter@60286306, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@452ddb5c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6b44ec91, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1f933985, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@26e99b93, org.springframework.security.web.session.SessionManagementFilter@4011f07e, org.springframework.security.web.access.ExceptionTranslationFilter@1c3777d7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6fd1cf20]
+2020-08-10 19:44:18,280 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-10 19:44:18,358 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-10 19:44:18,362 INFO o.s.b.StartupInfoLogger [restartedMain] Started StartServer in 12.69 seconds (JVM running for 14.165)
+2020-08-10 19:44:30,967 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-10 19:44:30,969 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-08-10 19:44:30,991 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 22 ms
+2020-08-10 19:44:31,278 INFO o.h.h.i.QueryTranslatorFactoryInitiator [http-nio-8080-exec-1] HHH000397: Using ASTQueryTranslatorFactory
+2020-08-10 19:44:33,997 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-4] No mapping for GET /favicon.ico
+2020-08-10 19:44:35,650 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-6] No mapping for GET /favicon.ico
+2020-08-10 19:44:40,975 WARN o.s.s.c.b.BCryptPasswordEncoder [http-nio-8080-exec-7] Encoded password does not look like BCrypt
+2020-08-10 19:44:41,276 WARN o.s.w.s.DispatcherServlet [http-nio-8080-exec-9] No mapping for GET /favicon.ico
